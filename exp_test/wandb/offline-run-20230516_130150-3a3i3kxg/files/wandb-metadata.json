@@ -1,0 +1,118 @@
+{
+    "os": "Linux-5.15.107+-x86_64-with-glibc2.31",
+    "python": "3.10.11",
+    "heartbeatAt": "2023-05-16T13:01:53.834426",
+    "startedAt": "2023-05-16T13:01:50.191918",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "TrainKWClip_GeneralTransformer",
+        "--config",
+        "config/speechCLIP/model_large/flickr/spchclp_p.yaml",
+        "--gpus",
+        "1",
+        "--njobs",
+        "4",
+        "--seed",
+        "7122",
+        "--train",
+        "--save_path",
+        "exp_test"
+    ],
+    "state": "running",
+    "program": "/content/drive/.shortcut-targets-by-id/1hWJlyMmsUBvuJJ12dyhT9mwmzQQIIOzL/project/farida_trial/SpeechCLIP/run_task.py",
+    "codePath": "run_task.py",
+    "git": {
+        "remote": "https://github.com/atosystem/SpeechCLIP.git",
+        "commit": "839cd2bb38ab0485bb0c1209dd84e97e3f960a36"
+    },
+    "email": null,
+    "root": "/content/drive/.shortcut-targets-by-id/1hWJlyMmsUBvuJJ12dyhT9mwmzQQIIOzL/project/farida_trial/SpeechCLIP",
+    "host": "184171e4ae28",
+    "username": "root",
+    "executable": "/usr/bin/python3",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 2200.216,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2200.216,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.216,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.216,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.216,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.216,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.216,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.216,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.216,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.216,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.216,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.216,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.216,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "total": 166.77415084838867,
+        "used": 28.536060333251953
+    },
+    "gpu": "NVIDIA A100-SXM4-40GB",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA A100-SXM4-40GB",
+            "memory_total": 42949672960
+        }
+    ],
+    "memory": {
+        "total": 83.48075866699219
+    }
+}
