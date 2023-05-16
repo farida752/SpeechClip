@@ -1,0 +1,51 @@
+{
+    "os": "Linux-5.10.147+-x86_64-with-glibc2.31",
+    "python": "3.9.16",
+    "heartbeatAt": "2023-03-17T15:09:43.062115",
+    "startedAt": "2023-03-17T15:09:40.847364",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "TrainKWClip_GeneralTransformer",
+        "--config",
+        "config/speechCLIP/model_base/spchclp_p.yaml",
+        "--gpus",
+        "2",
+        "--njobs",
+        "4",
+        "--seed",
+        "7122",
+        "--train",
+        "--save_path",
+        "exp_test"
+    ],
+    "state": "running",
+    "program": "/content/drive/MyDrive/farida_trial/SpeechCLIP/run_task.py",
+    "codePath": "run_task.py",
+    "git": {
+        "remote": "https://github.com/atosystem/SpeechCLIP.git",
+        "commit": "839cd2bb38ab0485bb0c1209dd84e97e3f960a36"
+    },
+    "email": null,
+    "root": "/content/drive/MyDrive/farida_trial/SpeechCLIP",
+    "host": "92a9bc9131eb",
+    "username": "root",
+    "executable": "/usr/bin/python3",
+    "cpu_count": 1,
+    "cpu_count_logical": 2,
+    "disk": {
+        "total": 78.1898422241211,
+        "used": 28.63277816772461
+    },
+    "gpu": "Tesla T4",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "Tesla T4",
+            "memory_total": 16106127360
+        }
+    ],
+    "memory": {
+        "total": 12.681198120117188
+    }
+}
